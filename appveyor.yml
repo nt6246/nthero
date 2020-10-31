@@ -10,6 +10,9 @@ install:
   - npm install
 matrix:
   fast_finish: true
+  allow_failures:
+    - platform: x86
+    - platform: x64
 build: off
 shallow_clone: true
 test_script:

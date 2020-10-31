@@ -1,0 +1,16 @@
+version: 1.0.{build}
+build_script:
+- sh: >-
+    echo "Build script"
+
+    npm --version
+
+    node --version
+
+    dir
+
+    ls
+
+    echo "BUILD"
+
+    npm install
